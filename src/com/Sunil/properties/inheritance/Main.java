@@ -2,8 +2,8 @@ package com.Sunil.properties.inheritance;
 
 public class Main {
     public static void main(String[] args) {
-//        Box box1 = new Box(6, 7, 8);
-//        Box box2 = new Box(box1);
+        Box box1 = new Box(6, 7, 8);
+        Box box2 = new Box(box1);
 //
 //        System.out.println(box1.l + " " + box1.w + " " + box1.h);
 //        System.out.println(box2.l + " " + box2.w + " " + box2.h);
@@ -22,6 +22,10 @@ public class Main {
 //        BoxWeight box6 = new Box(2,3,4);
 
 
-        BoxPrice box = new BoxPrice(5, 10, 30);
+//        BoxPrice box = new BoxPrice(5, 10, 30);
+//        Box.greeting();
+
+        Box box = new BoxWeight();
+        box.greeting();
     }
 }
