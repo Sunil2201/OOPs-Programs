@@ -8,6 +8,9 @@ public class InnerClasses {
 //            Test.name = name;
             this.name = name;
         }
+        static void printName(String name){
+            System.out.println(name);
+        }
 
         @Override
         public String toString() {

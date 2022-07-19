@@ -12,9 +12,9 @@ public class BoxWeight extends Box{
     }
 
 //    @Override
-    static void greeting(){
-        System.out.println("Hey, I am in BoxWeight class. Greetings!");
-    }
+//    static void greeting(){
+//        System.out.println("Hey, I am in BoxWeight class. Greetings!");
+//    }
 
     public BoxWeight(double l, double h, double w, double weight) {
         super(l, h, w); // what is this? call the parent class constructor

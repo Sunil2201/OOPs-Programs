@@ -25,7 +25,7 @@ public class Main {
 //        BoxPrice box = new BoxPrice(5, 10, 30);
 //        Box.greeting();
 
-        Box box = new BoxWeight();
+        BoxWeight box = new BoxWeight();
         box.greeting();
     }
 }

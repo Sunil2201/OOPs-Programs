@@ -14,6 +14,7 @@ public class Box {
         this.h = -1;
         this.w = -1;
     }
+
     static void greeting(){
         System.out.println("Hey, I am in Box class. Greetings!");
     }
