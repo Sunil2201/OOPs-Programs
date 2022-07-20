@@ -1,5 +1,7 @@
 package com.Sunil.properties.inheritance;
 
+import com.Sunil.access.A;
+
 public class Main {
     public static void main(String[] args) {
         Box box1 = new Box(6, 7, 8);
@@ -27,5 +29,12 @@ public class Main {
 
         BoxWeight box = new BoxWeight();
         box.greeting();
+//        Text t = new Text();
+
+    }
+    public class Text extends A{
+        public  Text(int num, String name) {
+            super(num, name);
+        }
     }
 }

@@ -2,6 +2,7 @@ package com.Sunil.access;
 
 public class A {
     protected int num;
+    int rollno;
     String name;
     int[] arr;
 
